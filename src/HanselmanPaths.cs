@@ -79,7 +79,6 @@ namespace Microsoft.AspNetCore.Builder
                 // Copy the remaining
                 path.Slice(1, path.Length - 1).CopyTo(span.Slice(1));
             }
-
         }
 
         public static bool TryKebabToPascalCase(string path, out string newPath)
